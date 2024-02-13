@@ -1,1 +1,2 @@
-####Dates and Projects 
+# Dates and Projects 
+* in Bold *
