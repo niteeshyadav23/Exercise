@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-
-
+import './index.css';
+import { useState } from 'react';
 function App() {
+  const[toggle , setToggle] = useState(false)
+
+  function handleClick(){
+    setToggle(!toggle);
+  }
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <button onClick={handleClick} className='btn'>{toggle.toString().toUpperCase()}</button>
     </div>
   );
 }
